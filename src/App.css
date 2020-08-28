@@ -1,38 +1,164 @@
-.App {
-  text-align: center;
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	padding-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-container {
+	display: grid;
+	/* grid-template-columns: 1fr 1fr; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.top-control-bar {
+	border: red 2px dashed;
 }
 
-.App-link {
-  color: #61dafb;
+.top-control-options {
+	display: flex;
+	justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-opt-btn-group {
+	display: flex;
+}
+
+.top-navbar-link {
+	display: grid;
+	font-size: 0.9rem;
+	font-weight: 900;
+	justify-self: center;
+	margin: 0 0 0 0.5rem;
+	width: 6rem;
+}
+
+.top-navbar-item {
+	padding: 18px 12px;
+}
+
+.top-nav-item-label {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* .top-control-area {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      padding: 0 20px 20px 20px;
+    }
+
+    .view-control-group {
+      display: grid;
+      width: max-content;
+      gap: 5px;
+      border: black 2px solid;
+      border-radius: 5px;
+      padding: 0 15px 15px;
+      text-align: center;
+    }
+
+    .view-button {
+      height: 2.8rem;
+      width: 8.0rem;
+      font-size: 0.9rem;
+      font-weight: 900;
+      padding-left: 2px;
+      padding-right: 2px;
+      justify-self: center;
+
+    } */
+
+.view-button a {
+	text-decoration: none;
+}
+
+.root-selector {
+	border: black 2px solid;
+	width: max-content;
+	text-align: center;
+	padding: 0 10px 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.root-selector .section-title {
+	margin-bottom: 2.5rem;
+}
+
+.root-tone-buttons {
+	display: flex;
+	gap: 5px;
+}
+
+.root-button:hover {
+	cursor: pointer;
+}
+
+.root-btn-group {
+	display: grid;
+	gap: 5px;
+	margin-top: -0.9rem;
+}
+
+.root-button {
+	height: 1.8rem;
+	width: 2.2rem;
+	font-size: 0.9rem;
+	font-weight: 900;
+}
+
+.basic-instructions {
+	margin-left: 150px;
+}
+
+.basic-instructions ol {
+	padding: 0;
+}
+
+.theory-section {
+	/* border: red 2px solid; */
+	width: max-content;
+	display: grid;
+	justify-items: center;
+}
+
+#navbarFunctionality {
+	display: grid;
+	/* border: black 2px solid; */
+	width: max-content;
+	text-align: center;
+	padding: 0 10px 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	gap: 10px;
+}
+
+#navbarFunctionality .section-title {
+	margin-bottom: 0;
+}
+
+.navbar-item {
+	font-size: 0.9rem;
+	font-weight: 900;
+	padding: 18px 12px;
+	justify-self: center;
+}
+
+.navbar-item a {
+	text-decoration: none;
+}
+
+.interval-option-section {
+	display: flex;
+	gap: 25px;
+	font-size: 13px;
+	font-weight: 700;
+	border: black 2px solid;
+	padding: 15px;
+	width: max-content;
+	border-radius: 5px;
 }

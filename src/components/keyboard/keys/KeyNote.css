@@ -1,0 +1,81 @@
+.wh-key {
+	height: 16vw;
+	/* width: 29.7px; */
+	width: 2.1vw;
+	border: 1px black solid;
+	background-color: #fff;
+	padding-top: 100px;
+	font-size: 13px;
+}
+
+/* document.querySelector(".wh-key").style.height = 
+Math.round((document.getElementById(".wh-key").style.width * 100) / 14.83) + "px"; */
+
+.bk-key {
+	height: 10.5vw;
+	/* width: 22.0px; */
+	width: 1.5vw;
+	border: 1px black solid;
+	background-color: #000;
+	z-index: 1;
+	color: #fff;
+	padding-top: 30px;
+	font-size: 10px;
+}
+
+/* document.querySelector(".bk-key").style.height = 
+Math.round((document.getElementById(".bk-key").style.width * 100) / 16.53) + "px"; */
+
+.move1 {
+	position: absolute;
+	/* margin-left: 18.7px; */
+	margin-left: 1.35vw;
+}
+
+.move2 {
+	position: absolute;
+	/* margin-left: 48.7px; */
+	margin-left: 3.45vw;
+}
+
+.move3 {
+	position: absolute;
+	/* margin-left: 78.7px; */
+	margin-left: 7.65vw;
+}
+
+.move4 {
+	position: absolute;
+	/* margin-left: 78.7px; */
+	margin-left: 9.75vw;
+}
+
+.move5 {
+	position: absolute;
+	/* margin-left: 78.7px; */
+	margin-left: 11.85vw;
+}
+
+#a3,
+#b3,
+#d4,
+#e4,
+#a4 {
+	background-color: #ff9973;
+}
+
+#d♭4,
+#g♭4,
+#a♭4 {
+	background-color: #dc3b00;
+}
+
+#c2,
+#e2 {
+	background-color: #00e6e685;
+}
+
+#b♭2,
+#a♭2 {
+	background-color: #008282;
+}
